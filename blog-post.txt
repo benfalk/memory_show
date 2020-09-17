@@ -1,0 +1,16 @@
+How hard is it for a new person to pick up your project and start working on it? Think about the supporting database, message queues, mailer software, and any other systems your project ties into. Is there any kind of development credentials they’ll need? What is the process to get a change into production? When you go beyond the run-of-the-mill framework inside the vacuum of your local machine the barrier to getting started on a project can start to sky rocket. What are some ways we can help mitigate this?
+
+Use the README
+Your README should contain instructions and link to other resources that will give a newcomer into the project answers to the questions above. When someone has to ask about how to get started, take it as an opportunity to document what is missing. If people can get your project setup and begin making changes without having to ask questions you have succeeded.
+
+As the project grows and changes keeping the README up to date can be a challenge. Try to remember that when you make changes to your process or environment to reflect them in your document. Make it part of your peer-review and pre-master checklist:
+
+“Has anything changed that should be documented in the README?”
+
+Automate the Development Environment
+There are some fantastic ways to remove the headache of setting up the development environment for a project. You’d be surprised how far a good bash script goes. Look at all of the commands you have to type to get started on your project. Try to take those commands and put them into a script that can be run from checkout to get developers as close to ready as possible.
+
+I also recommend Docker. This adds additional requirements that Docker be installed and developers know the basics of how it works; however, it gives you a great way to automate an environment that is identical for everyone. This is a huge winner when you are targeting developers that all might not be using the same platform. Removing the pain of knowing how to set up your environment for OSX versus Linux versus Windows is awesome.
+
+Final Thoughts
+Try to remember you won’t be the only or last person to work on a project. Make it as easy as possible for others to get started with automated scripts and documentation. When you lower the barrier of entry into your project it ensures it’s continued survival.
